@@ -1,3 +1,7 @@
 sudo visudo - ALL=(ALL) NOPASSWD:ALL
 sudo apt update && sudo apt upgrade -y
 sudo reboot
+
+sudo mkdir /git
+cd /git
+sudo git clone https://github.com/frickera/server-scripts-ubuntu.git
